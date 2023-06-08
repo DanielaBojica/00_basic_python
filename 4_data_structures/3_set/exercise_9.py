@@ -2,7 +2,7 @@
 
 
 def exercise_9(initial_set: set):
-    # Your code here
+    initial_set.clear()
     return {}
 
 
