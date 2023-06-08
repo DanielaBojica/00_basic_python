@@ -3,8 +3,10 @@
 
 
 def exercise_8(sample_list: list) -> bool:
-    # Your code here
-    return
+    flag = False
+    if sample_list:
+        flag = True
+    return flag
 
 
 string_list = ['abc', 'xyz', 'abc', '1221']

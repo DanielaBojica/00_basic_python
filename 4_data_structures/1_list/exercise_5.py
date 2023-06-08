@@ -4,8 +4,11 @@
 
 
 def exercise_5(strings: list) -> int:
-    # Your code here
-    return
+    res = []
+    for string in strings:
+        if len(string) >= 2 and string[0] == string[-1]:
+            res.append(string)
+    return len(res)
 
 
 string_list = ['abc', 'xyz', 'aba', '1221']

@@ -3,7 +3,7 @@
 
 def exercise_3(first_set: set, second_set: set) -> set:
     # Your code here
-    return
+    return first_set & second_set
 
 
 set_1 = {"Ferrari", "Mercedes"}

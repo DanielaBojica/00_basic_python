@@ -1,10 +1,10 @@
 # TODO: Write a Python program
 #       to convert a given dictionary into a list of lists.
-
+# MAYBE LIST OF TUPLES
 
 def exercise_11(dic1):
     # Your code here
-    return []
+    return list(dict1.items())
 
 
 # 1st test

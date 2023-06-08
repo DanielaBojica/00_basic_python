@@ -3,8 +3,8 @@
 
 
 def exercise_9(sample_list: list) -> bool:
-    # Your code here
-    return
+    clone_list = sample_list[:]
+    return clone_list
 
 
 string_list = ['abc', 'xyz', 'abc', '1221']

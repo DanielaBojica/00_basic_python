@@ -2,8 +2,11 @@
 #       to create a list of dictionaries of dictionary of lists.
 
 
-def exercise_9():
-    # Your code here
+def exercise_9(dict1):
+    keys = dict1.keys()
+    vals = zip(*[dict1[key] for key in keys])
+    res = [dict(zip(keys, val)) for val in vals]
+    return res
     pass
 
 

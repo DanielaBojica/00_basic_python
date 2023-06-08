@@ -9,7 +9,7 @@
 # ['Roxanne', 'Betty']
 
 def exercise_14(dict1, number):
-    return dict1
+    return [key for key in dict1 if dict1[key] == number]
 
 
 dict1 = {'Theodore': 19, 'Roxanne': 20, 'Mathew': 21, 'Betty': 20}

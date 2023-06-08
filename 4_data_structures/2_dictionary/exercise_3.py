@@ -10,7 +10,11 @@ dict1 = {
 
 
 def exercise_3(dict1):
-    # Your code here
+    list1 = []
+    for value in dict1.values():
+        if value not in list1:
+            list1.append(value)
+    # print(*list1)
     pass
 
 

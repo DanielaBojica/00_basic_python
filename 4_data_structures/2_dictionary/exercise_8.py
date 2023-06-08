@@ -3,7 +3,10 @@
 
 
 def exercise_9(dict1):
-    # Your code here
+    list_of_values = list(dict1.values())
+    first_value = list_of_values[0]
+    all_equal = all(value == first_value for value in dict1.values())
+    return all_equal
     pass
 
 

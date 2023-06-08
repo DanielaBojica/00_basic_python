@@ -12,5 +12,5 @@ def exercise_2(dict1):
     # Your code here
     return dict1
 
-
+# It seems you want to remove ALL items that are the same, not only the duplicates.
 assert exercise_2(dict1) == {("3"): 4}

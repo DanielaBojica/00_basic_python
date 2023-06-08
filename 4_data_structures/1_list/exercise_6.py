@@ -4,8 +4,8 @@
 
 
 def exercise_6(list1):
-    # Your code here
-    return
+    del list1[0:3]
+    return list1
 
 # 1st test
 list1 = [1, 2, 3, 5, 6]

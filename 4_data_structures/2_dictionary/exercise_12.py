@@ -3,8 +3,8 @@
 
 
 def exercise_12(dict1):
-    # Your code here
-    return dict1
+    res = {key: [item for item in value if item % 2 == 0] for key, value in dict1.items()}
+    return res
 
 
 # 1st test

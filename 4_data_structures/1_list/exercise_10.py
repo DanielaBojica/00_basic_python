@@ -3,9 +3,16 @@
 #       than n from a given list of words.
 
 
-def exercise_10(sample_list: list, n: int) -> bool:
-    # Your code here
-    return
+# def exercise_10(sample_list: list, n: int) -> bool:
+#     longer_than_n = []
+#     for word in sample_list:
+#         if len(word) > n:
+#             longer_than_n.append(word)
+#     return longer_than_n
+
+# or:
+# def exercise_10(sample_list: list, n: int) -> bool:
+#     return list(word for word in sample_list if len(word) > n)
 
 
 sample_list = ["train", "bike", "cat", "do", "I"]

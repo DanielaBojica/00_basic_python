@@ -4,9 +4,13 @@
 
 
 def exercise_13(dict1):
-    # Your code here
+    return [sub_dict['class'] == "V" for sub_dict in dict1]
     pass
 
+# the other solution would be (but would nor provide a list):
+# def exercise_13(dict1):
+#    for sub_dict in dict1:
+#         print(sub_dict['class'] == "V") # or print(sub_dict['class'] == "V", end = ', ')
 
 # 1st test
 dict1 = [

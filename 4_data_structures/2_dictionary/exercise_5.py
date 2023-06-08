@@ -9,8 +9,13 @@ dict1 = {
 
 
 def exercise_5(dict1):
-    # Your code here
-    return
+    list_keys = []
+    for key in dict1:
+        key = key.replace(" ", "")
+        list_keys.append(key)
+    list_values = list(dict1.values())
+    final_dict = dict(zip(list_keys, list_values))
+    return final_dict
 
 
 

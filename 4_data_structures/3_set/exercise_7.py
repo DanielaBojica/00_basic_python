@@ -3,7 +3,9 @@
 
 def exercise_7(words: set, subset: set) -> set:
     # Your code here
-    return
+    return subset.issubset(words)
+#or
+    # return subset <= words
 
 
 words = {"baseball", "karate", "football"}

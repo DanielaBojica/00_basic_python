@@ -4,8 +4,14 @@
 
 
 def exercise_17(list1: list) -> list:
-    # Your code here
-    return
+    list_sorted = []
+    max = list1[0]["qty"]
+    for i in range(len(list1)):
+        if list1[i]["qty"] > max:
+            max = list1[i]["qty"]
+        list_sorted.append(list1[i])
+
+    return list_sorted
 
 
 list1 = [

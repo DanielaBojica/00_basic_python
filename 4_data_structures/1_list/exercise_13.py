@@ -5,7 +5,7 @@
 
 def exercise_13(list1: list) -> bool:
     # Your code here
-    return
+    return list(number for number in list1 if number % 2 != 0)
 
 
 list1 = [1, 2, 46, 7, 8, 9, 56]

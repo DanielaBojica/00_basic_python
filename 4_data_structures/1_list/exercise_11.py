@@ -5,8 +5,12 @@
 
 
 def exercise_11(list1: list, list2: list) -> bool:
-    # Your code here
-    return
+    flag = False
+    for i in list1:
+        for j in list2:
+            if i == j:
+                flag = True
+    return flag
 
 
 # 1st test

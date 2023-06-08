@@ -3,6 +3,7 @@
 
 
 def exercise_15(dict1):
+    return [value for value in dict1.values()]
     pass
 
 
